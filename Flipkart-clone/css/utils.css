@@ -1,0 +1,26 @@
+.flex-all-centre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    nav ul li a:hover{
+        color: rgb(2, 5, 3);
+        font-weight: 800;
+    }
+
+button{
+    color: white;
+    background-color: #2874f0;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid white;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold
+}
+button:hover{
+    background-color: rgb(0, 94, 255);
+    
+    box-shadow: 8px 5px 5px black;
+}

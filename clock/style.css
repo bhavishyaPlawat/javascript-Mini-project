@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(40, 52, 63);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(162, 144, 185);
+    padding: 30px;
+    border-radius: 10px;
+    border: 2px white solid;
+    flex-direction: column;
+}
+
+.clock {
+    font-size: 50px;
+}
+
+i {
+    font-size: 50px;
+    color: white;
+    margin: 10px;
+}
+
+i:hover {
+    color: red;
+}
+
+@media (max-width: 600px) {
+    .clock {
+        font-size: 30px;
+    }
+
+    i {
+        font-size: 30px;
+    }
+}

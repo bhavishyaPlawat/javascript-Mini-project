@@ -1,0 +1,16 @@
+@media  screen and (max-width:920px) {
+
+nav{
+    flex-direction: column;
+}
+.logo,ul,.searchbar{
+    margin: auto;
+}
+button{
+    margin: 0px 5px;
+}
+.container .slider img{
+    height: 28vh;
+}
+
+}
