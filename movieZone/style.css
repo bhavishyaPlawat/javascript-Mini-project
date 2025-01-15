@@ -1,0 +1,49 @@
+*{
+    padding: 5px;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+body::-webkit-scrollbar{
+    display: none ;
+}
+    
+
+button{
+    font-weight: bold !important;
+}
+
+.img{
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+
+.dom{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+max-width: 1300px;
+margin: auto;
+}
+
+.hover {
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    width: 300px;
+    height: 310px;
+    overflow: hidden;
+    padding: 8x;
+}
+
+.hover:hover {
+    transform: scale(1.1);
+}
