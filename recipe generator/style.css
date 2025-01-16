@@ -1,0 +1,75 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+
+button{
+    margin-bottom: 8px;
+    font-weight: bold !important;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+input{
+    align-self: center;
+    border-radius: 10px;
+    background-color: grey;
+    padding: 4px;
+    margin-right: 8px; /* Add some space between input and icon */
+}
+
+i{
+    align-self: center;
+}
+
+img{
+    width: 250px;
+    height: auto;
+    border-radius: 15px;
+    align-self: center;
+    justify-self: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+img:hover{
+    transform: scale(1.05);
+}
+
+
+.food{
+width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+}
+
+ .pic{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    }
+
+.food .pic .name{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    flex-direction: column;
+    
+}
+h5{
+    text-align: center;
+}
+
