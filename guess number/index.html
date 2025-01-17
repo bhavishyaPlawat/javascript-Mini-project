@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guessing Game</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
+  </head>
+  <body>
+    <div class="conatiner">
+      <h2>Guessing Game</h2>
+      <h3>Guess between 1 to 100</h3>
+      <div class="number">
+        <label for="Guess">Enter your guess:</label>
+        <input type="number" id="Guess" />
+        <div class="score">
+          <p id="display"></p>
+          <audio src="pop.mp3" preload="auto" id="sound"></audio>
+        </div>
+        <button>reset</button>
+        <div>
+          <label for="speaker-toggle">🔊 Speaker</label>
+          <input type="checkbox" id="speaker-toggle" />
+        </div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

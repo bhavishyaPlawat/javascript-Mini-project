@@ -1,0 +1,90 @@
+body{
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.conatiner{
+    background-color: #7e6434;
+    height: 50vh;
+    padding: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 30vw;
+    border-radius: 10px;
+}
+
+h2,h3{
+    margin-top: 0;
+    align-self: center;
+    text-align: center;
+}
+label{
+   display: block;
+   text-align: center;
+}
+
+input {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    font-size: 1rem;
+    box-sizing: border-box;
+
+}
+
+@media (max-width: 600px) {
+    input {
+        width: 80%;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 400px) {
+    input {
+        width: 70%;
+        font-size: 0.8rem;
+    }
+}
+
+#display{
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+@keyframes wrongAns {
+    0%{
+        background-color: #7e6434;
+    }
+    50%{
+        background-color: red;
+    }
+    100%{
+        background-color: #7e6434;
+    }
+}
+@keyframes correctAns {
+    0%{
+        background-color: #7e6434;
+    }
+    50%{
+        background-color: rgb(71, 188, 71);
+    }
+    100%{
+        background-color: #7e6434;
+    }
+}
+
+.wrong{
+    animation: wrongAns 0.5s linear;
+}
+
+.correct{
+    animation: correctAns 0.5s linear;
+}
